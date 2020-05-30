@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arvo', serif;
+    font-family: 'Caveat Brush',
+    cursive;
+}
+
+.height {
+    min-height: 50vh;
+}
+
+.title-underline {
+    width: 200px;
+    height:10px;
+    margin: 0 auto;
+    /* background-color: blue! important; */
+    /* use ! important to over ride bootstrap classes */
+}
+.height-80 {
+    min-height: 80vh;
+}
+.about-picture {
+    background: url(../img/about-bg-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
