@@ -41,3 +41,12 @@ h2 {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+#filler {
+   background:linear-gradient(to right,rgba(0,0,0,.1),rgba(0,0,0,.7)),
+   url(../img/easel.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   min-height: 70vh;
+}
