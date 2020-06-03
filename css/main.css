@@ -52,3 +52,8 @@ h2 {
     background-attachment: fixed;
     min-height: 70vh;
 }
+.img-fluid-oval {
+    width:18.75rem;
+    height:14rem;
+    border-radius: 50%;
+}
