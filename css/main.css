@@ -52,8 +52,27 @@ h2 {
     background-attachment: fixed;
     min-height: 70vh;
 }
+
+.progress-picture {
+    background: url(../img/progress-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#progress {
+    background: linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, .7)),
+        url(../img/progress-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 60vh;
+}
+
 .img-fluid-oval {
-    width:18.75rem;
-    height:14rem;
+    width: 18.75rem;
+    height: 14rem;
     border-radius: 50%;
 }
