@@ -24,6 +24,11 @@ h2 {
     min-height: 50vh;
 }
 
+.navbar {
+    background-color: #f77f00;
+    background-image: linear-gradient(15deg, #dc2f02 0%, #f77f00 100%);
+}
+
 .title-underline {
     width: 200px;
     height: 10px;
@@ -34,6 +39,35 @@ h2 {
 
 .height-80 {
     min-height: 80vh;
+}
+
+.height-100 {
+    min-height: 100vh;
+}
+
+.headerfont {
+    margin-top: 6rem;
+    width: 100vw;
+    max-width: auto;
+    min-width: 16rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#header {
+    background: linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, .7)), url(../img/paintbrush-3.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .about-picture {
