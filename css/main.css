@@ -46,10 +46,12 @@ h2 {
 }
 
 .headerfont {
+    
     margin-top: 6rem;
-    width: 100vw;
-    max-width: auto;
-    min-width: 16rem;
+    width: 100%;
+       min-width: 310px;
+    min-height: 3rem;
+    
 }
 
 .img-fluid {
@@ -61,8 +63,9 @@ h2 {
 }
 
 #header {
+    padding-left: .5rem !important;
+    padding-right: .5rem !important;
     background: linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, .7)), url(../img/paintbrush-3.png);
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
