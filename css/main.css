@@ -85,7 +85,8 @@ h2 {
 }*/
 
 hr {
-    background-color: #0275d8;
+    /* background-color: #0275d8; */
+    background-image: -webkit-linear-gradient(left, rgba(66, 133, 244, .9), rgba(66, 133, 244, .5), rgba(0, 0, 0, 0));
     height: 2px !important;
     margin-bottom: 3px;
 }
