@@ -38,7 +38,7 @@ h2 {
 }
 
 .height-80 {
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 .height-100 {
@@ -46,12 +46,11 @@ h2 {
 }
 
 .headerfont {
-    
     margin-top: 6rem;
     width: 100%;
-       min-width: 310px;
+    min-width: 310px;
     min-height: 3rem;
-    
+
 }
 
 .img-fluid {
@@ -81,6 +80,16 @@ h2 {
     background-attachment: fixed;
 }
 
+/* #projects {
+   background: linear-gradient(15deg, #f0ad4e 30%, #0275d8 100%);
+}*/
+
+hr {
+    background-color: #0275d8;
+    height: 2px !important;
+    margin-bottom: 3px;
+}
+
 #filler {
     background: linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, .7)), url(../img/easel.png);
     background-size: cover;
@@ -108,7 +117,7 @@ h2 {
     min-height: 60vh;
 }
 
-.img-fluid-oval {
+/*.img-fluid-oval {
     width: 18.75rem;
     height: 14rem;
     border-radius: 50%;
