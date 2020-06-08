@@ -30,7 +30,7 @@ h2 {
 }
 
 .title-underline {
-    background-image: linear-gradient(15deg, #dc2f02 0%, #f77f00 100%);
+    background-image: linear-gradient(left, 15deg, #dc2f02 0%, #f77f00 100%);
     width: 200px;
     height: 10px;
     margin: 0 auto;
