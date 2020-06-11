@@ -28,6 +28,7 @@ h2 {
     background-color: #f77f00;
     background-image: linear-gradient(15deg, #dc2f02 0%, #f77f00 100%);
 }
+
 .nav-link {
     font-size: 1.05rem;
 }
@@ -39,6 +40,7 @@ h2 {
 .row-1 {
     margin-bottom: 15px ! important;
 }
+
 .title-underline {
     /* background-image: linear-gradient(15deg, #dc2f02 0%, #fff 100%); */
     width: 200px;
@@ -76,7 +78,9 @@ h2 {
     padding-left: .5rem !important;
     padding-right: .5rem !important;
     /* background: url(../img/header-2.webp); */
-    background: /*linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, .7)),*/ url(../img/paintbrush-3.webp);
+    background:
+        /*linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, .7)),*/
+        url(../img/paintbrush-3.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -133,15 +137,16 @@ hr {
 
 .price-1 {
     font-size: 1.5rem;
-    
+
 }
+
 .list-group-item {
 
     padding-left: 10px;
     padding-right: 10px;
 }
-/*.img-fluid-oval {
-    width: 18.75rem;
-    height: 14rem;
-    border-radius: 50%;
+
+.marian {
+    clip-path: ellipse(48% 45% at 50% 50%);
+  
 }
